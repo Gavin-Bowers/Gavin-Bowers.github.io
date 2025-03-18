@@ -6,32 +6,32 @@
                                    initial-scale=1.0">
     <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/141bbcb06c.js" crossorigin="anonymous"></script>
+
+    <!-- Optimize font loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
     <header id="home">
         <div class="container">
             <div class="hero">
                 <div class="hero-content">
-                    <h1>Hello, I'm <span>Gavin Bowers</span></h1>
+                    <h1>Hi, I'm Gavin Bowers</h1>
                     <div class="hero-buttons">
-                        <a href="#contact" class="btn" style="background: transparent; border: 2px solid white;"><b>Get In Touch</b></a>
-                        <a href="#projects" class="btn" style="margin-left: 10px; background: transparent; border: 2px solid white;"><b>View My Work</b></a>
+                        <a href="#contact" class="btn hero-btn">Get In Touch</a>
+                        <a href="#projects" class="btn hero-btn">View My Work</a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    
-    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <div class="hero-image">
-                <img src="portrait2.jpg" alt="Profile Image">
+                <img src="img/portrait2.jpg" alt="Profile Image">
             </div>
             <div class="about-content-wrapper">
                 <div class="section-title">
@@ -39,17 +39,22 @@
                 </div>
                 <div class="about-content">
                     <div class="about-text">
-                        <p>Welcome to my portfolio. I'm a recent Computer Science graduate looking to break into the software engineering space. I have diverse experience spanning different software disciplines from my time at The Evergreen State College. I'm passionate about making software that people find useful.</p>
-                        <p>My strongest attribute is that I'm persisant. I don't give up in the face of difficulty or uncertainty, as long as I have a project to finish.</p>
-                        <p>For fun, I like to play board games, card games, and video games with my friends. I like games. I also like to go camping and backpacking, and enjoy travelling.</p>
-                        <a href="#" class="btn" style="margin-top: 20px; background: var(--primary-color);">Download Resume</a>
+                        <p>Welcome to my portfolio. I'm a recent Computer Science graduate 
+                            looking to break into the software engineering space. 
+                            I have diverse experience spanning different software disciplines 
+                            from my time at The Evergreen State College. 
+                            I'm passionate about making software that people find useful.</p>
+                        <p>My strongest attribute is that I'm persistent. 
+                            I don't give up in the face of difficulty or uncertainty, as long as 
+                            I have a project to finish.</p>
+                        <p>For fun, I like to play board games, card games, and video games with my friends. 
+                            I also like to go camping and backpacking, and enjoy travelling.</p>
+                        <a href="Resume 1_29_25-4.pdf" class="btn" style="margin-top: 20px; background: var(--primary-color);">Download Resume</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
             <div class="section-title">
@@ -79,93 +84,57 @@
             </div>
         </div>
     </section>
-    
-    <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
             <div class="section-title">
                 <h2>My Projects</h2>
             </div>
             <div class="projects-grid">
-                <div class="project-card">
+                <a href="https://github.com/Gavin-Bowers/proxyshop_plugin" class="project-card">
                     <div class="project-img">
-                        <img src="https://via.placeholder.com/600x400" alt="Project 1">
+                        <img src="img/retro-aix.png" alt="retro plugin">
                     </div>
                     <div class="project-content">
-                        <h3>Project Name 1</h3>
-                        <p>A brief description of the project, highlighting the technologies used and your role in its development.</p>
-                        <div class="project-links">
-                            <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
-                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
-                        </div>
+                        <h3>Retro Proxyshop Plugin</h3>
+                        <p>Proxyshop is a Photoshop automation tool for rendering Magic: the Gathering cards. 
+                            The Retro plugin adds support for old border cards. It consists of Python code and 
+                            Photoshop "template" files.
+                            Most of the textures were patched together, extended, and upscaled by x1uo3yd.
+                            I improved some of the textures, made the Photoshop templates, and programmed the plugin.
+                            This is a hobby project I made because I wanted it to exist.</p>
                     </div>
-                </div>
-                <div class="project-card">
+                </a>
+                <a href="https://github.com/Gavin-Bowers/space-escape-vr" class="project-card">
                     <div class="project-img">
-                        <img src="https://via.placeholder.com/600x400" alt="Project 2">
+                        <img src="img/space-escape.png" alt="space escape vr">
                     </div>
                     <div class="project-content">
-                        <h3>Project Name 2</h3>
-                        <p>A brief description of the project, highlighting the technologies used and your role in its development.</p>
-                        <div class="project-links">
-                            <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
-                            <a href="#"><i class="fa-solid fa-up-right-from-squaret"></i> Live Demo</a>
-                        </div>
+                        <h3>Space Escape VR</h3>
+                        <p>This was my last big school project. It's a VR escape room game with a sci-fi setting. 
+                            I led the project and coordinated a team of 8 students. 
+                            The coding was done with UE5 blueprints. I did most of the coding. 
+                            Other members made most of the 3D models and textures.
+                        </p>
                     </div>
-                </div>
-                <div class="project-card">
+                </a>
+                <a href="https://github.com/TheEvergreenStateCollege/bioinformatics" class="project-card">
                     <div class="project-img">
-                        <img src="https://via.placeholder.com/600x400" alt="Project 3">
+                        <img src="img/bioinformatics.gif" alt="Project 3">
                     </div>
                     <div class="project-content">
-                        <h3>Project Name 3</h3>
-                        <p>A brief description of the project, highlighting the technologies used and your role in its development.</p>
-                        <div class="project-links">
-                            <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
-                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
-                        </div>
+                        <h3>Bioinformatics</h3>
+                        <p>An implementation of gene sequencing by read alignment in Rust, 
+                            using Ukkonen's algorithm for suffix tree construction. 
+                            Approximate matching utilizied a dynamic programming solution for edit distance.
+                            I did research early on which was pivotal for deciding the direction of the project.
+                            I wrote the suffix tree constructor, file IO, and top level logic. 
+                            Teammates wrote the edit distance function and a size-optimized vec variant 
+                            to save memory in the staggeringly large suffix tree.</p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
-    
-    <!-- Education Section -->
-    <section id="education" class="education">
-        <div class="container">
-            <div class="section-title">
-                <h2>Education</h2>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Bachelor of Science in Computer Science</h3>
-                        <h4>University Name</h4>
-                        <p>2019 - 2023</p>
-                        <p>Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering, Web Development, Machine Learning</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Relevant Certification</h3>
-                        <h4>Certification Provider</h4>
-                        <p>2022</p>
-                        <p>Brief description of what you learned and accomplished during this certification.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Another Relevant Certification</h3>
-                        <h4>Certification Provider</h4>
-                        <p>2021</p>
-                        <p>Brief description of what you learned and accomplished during this certification.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-title">
@@ -174,8 +143,10 @@
             <div class="contact-container">
                 <div class="contact-info">
                     <div class="contact-info-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>GavinJRBowers@gmail.com</p>
+                        <a href="mailto:GavinJRBowers@gmail.com?subject=Portfolio Contact&body=Hello Gavin," class="btn">
+                            <i class="fas fa-envelope"></i>
+                            <p>GavinJRBowers@gmail.com</p>
+                        </a>
                     </div>
                     <div class="contact-info-item">
                         <i class="fas fa-phone"></i>
@@ -186,28 +157,9 @@
                         <p>Seattle, Washington</p>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn" style="background: var(--primary-color);">Send Message</button>
-                    </form>
-                </div>
             </div>
         </div>
     </section>
-    
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="social-links">
