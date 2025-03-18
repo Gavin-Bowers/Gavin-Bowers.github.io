@@ -6,6 +6,9 @@
                                    initial-scale=1.0">
     <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/141bbcb06c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,8 +18,10 @@
             <div class="hero">
                 <div class="hero-content">
                     <h1>Hello, I'm <span>Gavin Bowers</span></h1>
-                    <a href="#contact" class="btn" style="background: transparent; border: 2px solid white;"><b>Get In Touch</b></a>
-                    <a href="#projects" class="btn" style="margin-left: 10px; background: transparent; border: 2px solid white;"><b>View My Work</b></a>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn" style="background: transparent; border: 2px solid white;"><b>Get In Touch</b></a>
+                        <a href="#projects" class="btn" style="margin-left: 10px; background: transparent; border: 2px solid white;"><b>View My Work</b></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -25,18 +30,20 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <div class="section-title">
-                <h2>About Me</h2>
+            <div class="hero-image">
+                <img src="portrait2.jpg" alt="Profile Image">
             </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Welcome to my portfolio. I'm a recent Computer Science graduate looking to break into the software engineering space. I have diverse experience spanning different software disciplines from my time at The Evergreen State College. I'm passionate about making software that people find useful.</p>
-                    <p>My strongest attribute is that I'm persisant. I don't give up in the face of difficulty or uncertainty, as long as I have a project to finish.</p>
-                    <p>For fun, I like to play board games, card games, and video games with my friends. I like games. I also like to go camping and backpacking, and enjoy travelling.</p>
-                    <a href="#" class="btn" style="margin-top: 20px; background: var(--primary-color);">Download Resume</a>
+            <div class="about-content-wrapper">
+                <div class="section-title">
+                    <h2>About Me</h2>
                 </div>
-                <div class="hero-image">
-                    <img src="portrait.jpg" alt="Profile Image">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Welcome to my portfolio. I'm a recent Computer Science graduate looking to break into the software engineering space. I have diverse experience spanning different software disciplines from my time at The Evergreen State College. I'm passionate about making software that people find useful.</p>
+                        <p>My strongest attribute is that I'm persisant. I don't give up in the face of difficulty or uncertainty, as long as I have a project to finish.</p>
+                        <p>For fun, I like to play board games, card games, and video games with my friends. I like games. I also like to go camping and backpacking, and enjoy travelling.</p>
+                        <a href="#" class="btn" style="margin-top: 20px; background: var(--primary-color);">Download Resume</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,13 +169,13 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-title">
-                <h2>Get In Touch</h2>
+                <h2>Contact Me</h2>
             </div>
             <div class="contact-container">
                 <div class="contact-info">
                     <div class="contact-info-item">
                         <i class="fas fa-envelope"></i>
-                        <p>gavinjrbowers@gmail.com</p>
+                        <p>GavinJRBowers@gmail.com</p>
                     </div>
                     <div class="contact-info-item">
                         <i class="fas fa-phone"></i>
