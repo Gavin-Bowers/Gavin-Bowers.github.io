@@ -20,10 +20,6 @@
             <div class="hero">
                 <div class="hero-content">
                     <h1>Hi, I'm Gavin Bowers</h1>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn hero-btn">Get In Touch</a>
-                        <a href="#projects" class="btn hero-btn">View My Work</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -39,10 +35,11 @@
                 </div>
                 <div class="about-content">
                     <div class="about-text">
-                        <p>Welcome to my portfolio. I'm a recent Computer Science graduate 
-                            looking to break into the software engineering space. 
-                            I have diverse experience spanning different software disciplines 
-                            from my time at The Evergreen State College. 
+                        <p>I'm a recent Computer Science graduate 
+                            looking for a job in software development. 
+                            I went to the Evergreen State College.  
+                            I took classes spanning multiple disciplines in computing, including security, web dev, 
+                            low level, and functional programming. 
                             I'm passionate about making software that people find useful.</p>
                         <p>For fun, I like to play board games, card games, and video games with my friends. 
                             I also like to go camping and backpacking, and enjoy travelling.</p>
@@ -58,46 +55,32 @@
                 <h2>My Projects</h2>
             </div>
             <div class="projects-grid">
-                <a href="https://github.com/Gavin-Bowers/proxyshop_plugin" class="project-card">
+                <a href="projects/retro-proxyshop.html" class="project-card">
                     <div class="project-img">
                         <img src="img/retro-aix.png" alt="retro plugin">
                     </div>
                     <div class="project-content">
                         <h3>Retro Proxyshop Plugin</h3>
-                        <p>Proxyshop is a Photoshop automation tool for rendering Magic: the Gathering cards. 
-                            The Retro plugin adds support for old border cards. It consists of Python code and 
-                            Photoshop "template" files.
-                            Most of the textures were patched together, extended, and upscaled by x1uo3yd.
-                            I improved some of the textures, made the Photoshop templates, and programmed the plugin.
-                            This is a hobby project I made because I wanted it to exist.</p>
+                        <p>A plugin that adds support for old border cards to Proxyshop, a Magic card rendering tool. Written in Python.</p>
                     </div>
                 </a>
-                <a href="https://github.com/Gavin-Bowers/space-escape-vr" class="project-card">
+                <a href="projects/space-escape-vr.html" class="project-card">
                     <div class="project-img">
                         <img src="img/space-escape.png" alt="space escape vr">
                     </div>
                     <div class="project-content">
                         <h3>Space Escape VR</h3>
-                        <p>This was my last big school project. It's a VR escape room game with a sci-fi setting. 
-                            I led the project and coordinated a team of 8 students. 
-                            The coding was done with UE5 blueprints. I did most of the coding. 
-                            Other members made most of the 3D models and textures.
+                        <p>An Unreal Engine 5 VR escape room game, using blueprints.
                         </p>
                     </div>
                 </a>
-                <a href="https://github.com/TheEvergreenStateCollege/bioinformatics" class="project-card">
+                <a href="projects/bioinformatics.html" class="project-card">
                     <div class="project-img">
                         <img src="img/suffix-tree-2.png" alt="Project 3">
                     </div>
                     <div class="project-content">
-                        <h3>Bioinformatics</h3>
-                        <p>An implementation of gene sequencing by read alignment in Rust, 
-                            using Ukkonen's algorithm for suffix tree construction. 
-                            Approximate matching utilizied a dynamic programming solution for edit distance.
-                            I did research early on which was pivotal for deciding the direction of the project.
-                            I wrote the suffix tree constructor, file IO, and top level logic. 
-                            Teammates wrote the edit distance function and a size-optimized vec variant 
-                            to save memory in the staggeringly large suffix tree.</p>
+                        <h3>Rusty Plants</h3>
+                        <p>A genome sequencing tool written in Rust. It was originally intended for Mimosa Pudica reads, hence the name.</p>
                     </div>
                 </a>
             </div>
@@ -112,22 +95,48 @@
                 <div class="skill-card">
                     <i class="fa-solid fa-code"></i>
                     <h3>Programming Languages</h3>
-                    <p>Java, Python, JavaScript, C++, Rust, Go</p>
+                    <ul class="skills-list">
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        </C>C++</li>
+                        <li>Rust</li>
+                        <li>Go</li>
+                        <li>Haskell</li>
+                    </ul>
                 </div>
                 <div class="skill-card">
                     <i class="fa-solid fa-laptop-code"></i>
                     <h3>Web Development</h3>
-                    <p>HTML, CSS, React, Node.js, Express</p>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Typescript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                    </ul>
                 </div>
                 <div class="skill-card">
                     <i class="fa-solid fa-database"></i>
                     <h3>Databases</h3>
-                    <p>MySQL, PostgreSQL</p>
+                    <ul class="skills-list">
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Prisma</li>
+                    </ul>
                 </div>
                 <div class="skill-card">
                     <i class="fa-solid fa-gears"></i>
                     <h3>Tools & Technologies</h3>
-                    <p>Git, Docker, AWS, CI/CD, Agile</p>
+                    <ul class="skills-list">
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>Ghidra</li>
+                        <li>Unreal Engine</li>
+                    </ul>
                 </div>
             </div>
         </div>

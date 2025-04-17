@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinformatics - Gavin Bowers</title>
+    <script src="https://kit.fontawesome.com/141bbcb06c.js" crossorigin="anonymous"></script>
+
+    <!-- Optimize font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="project-header">
+                <a href="../index.html" class="back-to-home">
+                    <i class="fas fa-arrow-left"></i> Back to Portfolio
+                </a>
+                <h1>Bioinformatics</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="project-details">
+        <div class="container">
+            <div class="project-hero-image">
+                <img src="../img/suffix-tree-2.png" alt="Bioinformatics Project Screenshot">
+            </div>
+            
+            <div class="project-content">
+                <div class="project-description">
+                    <h2>About the Project</h2>
+                    <p>This project was a gene sequencing tool written in Rust.
+                        It was intended to process read data from an Oxford Nanopore device, 
+                        matching the reads onto a reference genome. 
+                        It used a suffix tree for pattern matching, constructed using Ukkonen's algorithm. 
+                        The idea was to exact match part of a read onto the genome and then check 
+                        the approximate match of the read using edit distance. However, this turned out to be too 
+                        unreliable, and a working approach would probably require approximate matching built 
+                        into the suffix tree pattern matching. The project ended before we got to that.
+                        
+                        The team for this project had four members. 
+                        I did research early on which determined the approach of the project.
+                        I wrote the suffix tree constructor, file IO, and pattern matching. 
+                        Teammates wrote the edit distance function using dynamic programming 
+                        and a size-optimized vec type to save space in the enourmous suffix tree 
+                        created to represent the genome.</p>
+                </div>
+
+                <div class="project-technologies">
+                    <h2>Technologies Used</h2>
+                    <ul class="tech-list">
+                        <li>Rust</li>
+                        <li>Unsafe Rust</li>
+                        <li>Dynamic Programming</li>
+                        <li>Bioinformatics</li>
+                        <li>Ukkonen's Algorithm</li>
+                    </ul>
+                </div>
+
+                <div class="project-links">
+                    <h2>Project Links</h2>
+                    <div class="project-links-container">
+                        <a href="https://github.com/TheEvergreenStateCollege/bioinformatics" class="btn" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Gavin Bowers. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="../main.js"></script>
+</body>
+</html> 
