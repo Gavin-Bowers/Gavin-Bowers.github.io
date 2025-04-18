@@ -330,19 +330,19 @@ header {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #333;
+    color: white;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-right: 2rem;
     transition: color 0.3s ease;
 }
 
 .back-to-home:hover {
-    color: #666;
+    color: #f1eee5;
 }
 
 .back-to-home i {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 /* Education Section */
