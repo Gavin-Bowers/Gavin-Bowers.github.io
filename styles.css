@@ -3,7 +3,7 @@
     --secondary-color: #d8893f;
     --accent-color: #000000;
     --hover-color: #464646;
-    --light-color: #f4f4f4;
+    --light-color: #f1eee5;
     --dark-color: #333;
     --text-color: #444;
     --max-width: 1200px;
@@ -19,7 +19,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: #f9f9f9;
+    background-color: #fcf9f4;
 }
 
 a {
@@ -187,7 +187,6 @@ header {
 /* Skills Section */
 .skills {
     padding: 5rem 0;
-    background-color: var(--light-color);
 }
 
 .skills-container {
@@ -242,6 +241,7 @@ header {
 /* Projects Section */
 .projects {
     padding: 5rem 0;
+    background-color: var(--light-color);
 }
 
 .projects-grid {
@@ -288,15 +288,15 @@ header {
     color: var(--dark-color);
 }
 
-.project-content p {
-    margin-bottom: 1rem;
-}
-
 .project-header {
     display: flex;
     align-items: center;
     padding: 3rem 0 0rem 0;
     margin-bottom: 2rem;
+}
+
+.project-header h1 {
+    font-size: 3rem;
 }
 
 .project-hero-image {
@@ -413,6 +413,7 @@ header {
 /* Contact Section */
 .contact {
     padding: 5rem 0;
+    background-color: var(--light-color);
 }
 
 .contact-container {
